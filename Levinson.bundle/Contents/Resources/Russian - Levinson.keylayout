@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.233 on 2018-12-17 at 02:48 (GMT+3)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-01-24 at 18:41 (GMT+3)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="126" id="-29049" name="Russian - Levinson" maxout="3">
     <layouts>
@@ -92,7 +92,7 @@
             <key code="39" action="э"/>
             <key code="40" action="л"/>
             <key code="41" action="ж"/>
-            <key code="42" output="ю"/>
+            <key code="42" output="?"/>
             <key code="43" action="б"/>
             <key code="44" output="х"/>
             <key code="45" action="16"/>
@@ -204,7 +204,7 @@
             <key code="39" action="Э"/>
             <key code="40" action="Л"/>
             <key code="41" action="Ж"/>
-            <key code="42" output="Ю"/>
+            <key code="42" output="|"/>
             <key code="43" action="Б"/>
             <key code="44" output="Х"/>
             <key code="45" action="9"/>
@@ -1381,7 +1381,7 @@
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="Ё 1">
-            <when state="none" output="Б"/>
+            <when state="none" output="Ю"/>
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="І">
@@ -1473,7 +1473,7 @@
             <when state="none" output="Ь"/>
         </action>
         <action id="Э">
-            <when state="none" output="&#x0022;"/>
+            <when state="none" output="Б"/>
             <when state="diaeresis" output="Ӭ"/>
         </action>
         <action id="Ю">
@@ -1567,7 +1567,7 @@
             <when state="none" output="ь"/>
         </action>
         <action id="э">
-            <when state="none" output="&#x0027;"/>
+            <when state="none" output="б"/>
             <when state="diaeresis" output="ӭ"/>
         </action>
         <action id="ю">
@@ -1583,7 +1583,7 @@
             <when state="grave" output="ѐ"/>
         </action>
         <action id="ё 1">
-            <when state="none" output="б"/>
+            <when state="none" output="ю"/>
             <when state="grave" output="ѐ"/>
         </action>
         <action id="і">

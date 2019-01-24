@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.233 on 2018-12-17 at 02:06 (GMT+3)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-01-24 at 18:39 (GMT+3)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
-<keyboard group="126" id="-4073" name="English - Levinson" maxout="3">
+<keyboard group="126" id="-1441" name="English - Levinson" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
         <layout first="18" last="18" mapSet="994" modifiers="f4"/>
@@ -57,7 +57,7 @@
             <key code="7" action="x"/>
             <key code="8" action="c"/>
             <key code="9" action="v"/>
-            <key code="10" output="?"/>
+            <key code="10" output="`"/>
             <key code="11" action="b"/>
             <key code="12" output="q"/>
             <key code="13" action="w"/>
@@ -89,7 +89,7 @@
             <key code="39" output="&#x0027;"/>
             <key code="40" action="k"/>
             <key code="41" output=";"/>
-            <key code="42" output="}"/>
+            <key code="42" output="?"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
             <key code="45" action="16"/>
@@ -97,10 +97,16 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="5"/>
-            <key code="50" output="{"/>
+            <key code="50" output="&#x0022;"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="55" output=""/>
+            <key code="56" output=""/>
+            <key code="57" output=""/>
+            <key code="58" output=""/>
+            <key code="59" output=""/>
+            <key code="63" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
@@ -169,7 +175,7 @@
             <key code="7" action="X"/>
             <key code="8" action="C"/>
             <key code="9" action="V"/>
-            <key code="10" output="|"/>
+            <key code="10" output="~"/>
             <key code="11" action="B"/>
             <key code="12" output="Q"/>
             <key code="13" action="W"/>
@@ -189,19 +195,19 @@
             <key code="27" output="_"/>
             <key code="28" output="*"/>
             <key code="29" output=")"/>
-            <key code="30" output="`"/>
+            <key code="30" output="}"/>
             <key code="31" action="10"/>
             <key code="32" action="11"/>
-            <key code="33" output="~"/>
+            <key code="33" output="{"/>
             <key code="34" action="8"/>
             <key code="35" action="P"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="L"/>
             <key code="38" action="J"/>
-            <key code="39" output="&#x0022;"/>
+            <key code="39" output="`"/>
             <key code="40" action="K"/>
             <key code="41" output=":"/>
-            <key code="42" output="}"/>
+            <key code="42" output="|"/>
             <key code="43" output="&#x003C;"/>
             <key code="44" output="\"/>
             <key code="45" action="9"/>
@@ -209,7 +215,7 @@
             <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="5"/>
-            <key code="50" output="{"/>
+            <key code="50" output="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
