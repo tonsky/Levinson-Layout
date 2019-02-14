@@ -9,4 +9,4 @@ iconutil --convert icns --output Levinson.bundle/Contents/Resources/Russian\ -\ 
 touch Levinson.bundle
 
 rm -rf ~/Library/Keyboard\ Layouts/Levinson.bundle
-cp -r Levinson.bundle ~/Library/Keyboard\ Layouts/
+cp -r Levinson.bundle /Library/Keyboard\ Layouts/
