@@ -7,13 +7,15 @@
 	<key>CFBundleName</key>
 	<string>Levinson</string>
 	<key>CFBundleVersion</key>
-	<string>6</string>
+	<string>7</string>
 	<key>KLInfo_English - Levinson</key>
 	<dict>
 		<key>TISInputSourceID</key>
 		<string>me.tonsky.keyboardlayout.levinson.english-levinson</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
+		<key>TISIconIsTemplate</key>
+		<true/>
 	</dict>
 	<key>KLInfo_Russian - Levinson</key>
 	<dict>
@@ -21,6 +23,8 @@
 		<string>me.tonsky.keyboardlayout.levinson.russian-levinson</string>
 		<key>TISIntendedLanguage</key>
 		<string>ru</string>
+		<key>TISCapsLockIsSwitch</key>
+		<true/>
 	</dict>
 </dict>
 </plist>
