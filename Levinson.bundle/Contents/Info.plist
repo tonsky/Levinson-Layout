@@ -10,6 +10,8 @@
 	<string>7</string>
 	<key>KLInfo_English - Levinson</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>me.tonsky.keyboardlayout.levinson.english-levinson</string>
 		<key>TISIntendedLanguage</key>
@@ -19,12 +21,12 @@
 	</dict>
 	<key>KLInfo_Russian - Levinson</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>me.tonsky.keyboardlayout.levinson.russian-levinson</string>
 		<key>TISIntendedLanguage</key>
 		<string>ru</string>
-		<key>TISCapsLockIsSwitch</key>
-		<true/>
 	</dict>
 </dict>
 </plist>
