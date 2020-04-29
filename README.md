@@ -4,11 +4,29 @@
 
 ## Building keymap
 
-- Clone `https://github.com/qmk/qmk_toolbox`
-- Follow [docs.qmk.fm/#/newbs_getting_started](https://docs.qmk.fm/#/newbs_getting_started)
-- `ln -s keymap qmk_toolbox/keyboards/levinson/keymaps/tonsky`
-- In `qmk_toolbox` rum `make levinson/rev2:tonsky`
-- Flash with `QMK Toolbox.app`
+Following [docs.qmk.fm/#/newbs_getting_started](https://docs.qmk.fm/#/newbs_getting_started):
+
+```
+brew tap qmk/qmk
+brew install qmk
+qmk setup
+```
+
+Then
+
+```
+cd ~/work
+git clone git@github.com:tonsky/Levinson-Layout.git
+ln -s ~/work/Levinson-Layout/keymap ~/qmk_firmware/keyboars/keebio/levinson/keymaps/tonsky
+qmk compile -kb keebio/levinson/rev2 -km tonsky
+```
+
+Download `QMK Toolbox.app`
+[https://github.com/qmk/qmk_toolbox/releases](https://github.com/qmk/qmk_toolbox/releases).
+
+Local file: `~/qmk_firmware/keebio_levinson_rev2_tonsky.hex`
+Auto-flash: checked
+Press `Raise` + `Lower` + `A` (`RESET`)
 
 ## Layout
 
